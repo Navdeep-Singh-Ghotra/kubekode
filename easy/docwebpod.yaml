@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: docweb14
+spec:
+  containers:
+  - name: docweb14
+    image: navdeepsinghghotra/docweb:14
+    ports:
+    - containerPort: 3000
